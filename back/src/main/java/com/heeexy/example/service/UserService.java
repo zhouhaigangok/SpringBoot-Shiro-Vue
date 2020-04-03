@@ -3,9 +3,7 @@ package com.heeexy.example.service;
 import com.alibaba.fastjson.JSONObject;
 
 /**
- * @author: hxy
  * @description: 用户/角色/权限
- * @date: 2017/11/2 10:18
  */
 public interface UserService {
 	/**

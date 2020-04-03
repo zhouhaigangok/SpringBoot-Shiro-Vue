@@ -15,9 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @author: hxy
  * @description: 登录service实现类
- * @date: 2017/10/24 11:53
  */
 @Service
 public class LoginServiceImpl implements LoginService {

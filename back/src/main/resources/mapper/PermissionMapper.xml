@@ -11,7 +11,7 @@
         <collection property="menuList" ofType="String">
             <id column="menuCode" property="menuCode"/>
         </collection>
-        <collection property="permissionList" ofType="String">
+        <collection property="permissionList" ofType="java.lang.String">
             <id column="permissionCode" property="permissionCode"/>
         </collection>
     </resultMap>
@@ -31,12 +31,12 @@
           AND u.delete_status = '1'
     </select>
 
-    <select id="getAllPermission" resultType="String">
+    <select id="getAllPermission" resultType="java.lang.String">
         SELECT p.permission_code permissionCode
         FROM sys_permission p
         ORDER BY p.id
     </select>
-    <select id="getAllMenu" resultType="String">
+    <select id="getAllMenu" resultType="java.lang.String">
         SELECT p.menu_code menuCode
         FROM sys_permission p
         ORDER BY p.id

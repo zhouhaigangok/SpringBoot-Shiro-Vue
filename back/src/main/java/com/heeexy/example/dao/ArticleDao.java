@@ -1,14 +1,14 @@
 package com.heeexy.example.dao;
 
 import com.alibaba.fastjson.JSONObject;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
- * @author: hxy
  * @description: 文章Dao层
- * @date: 2017/10/24 16:06
  */
+@Repository
 public interface ArticleDao {
 	/**
 	 * 新增文章

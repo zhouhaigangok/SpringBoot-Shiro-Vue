@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.heeexy.example.dao.UserDao">
 
-    <select id="countUser" resultType="Integer">
+    <select id="countUser" resultType="java.lang.Integer">
         SELECT count(0)
         FROM sys_user u
         WHERE u.delete_status = '1'

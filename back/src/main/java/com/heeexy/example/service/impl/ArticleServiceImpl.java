@@ -9,11 +9,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-
-/**
- * @author: hxy
- * @date: 2017/10/24 16:07
- */
 @Service
 public class ArticleServiceImpl implements ArticleService {
 

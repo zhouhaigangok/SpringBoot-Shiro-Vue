@@ -11,9 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author: hxy
  * @description: 用户/角色/权限相关controller
- * @date: 2017/11/2 10:19
  */
 @RestController
 @RequestMapping("/user")
